@@ -18,18 +18,18 @@ class RouterIndex extends React.Component{
     render(){
         return(
             <Switch>
-                <Route path='/' exact component={Index}/>
-                <Route path='/html' component={HTML}/>
-                <Route path='/css' component={CSS}/>
-                <Route path='/js' component={JavaScript}/>
-                <Route path='/browser' component={Browser}/>
-                <Route path='/internet' component={Internet}/>
-                <Route path='/framework' component={Framework}/>
-                <Route path='/project' component={Project}/>
-                <Route path='/modular' component={Modular}/>
-                <Route path='/idea' component={Idea}/>
-                <Route path='/design' component={Design}/>
-                <Route path='/node' component={Node}/>
+                <Route path='/weng/' exact component={Index}/>
+                <Route path='/weng/html' component={HTML}/>
+                <Route path='/weng/css' component={CSS}/>
+                <Route path='/weng/js' component={JavaScript}/>
+                <Route path='/weng/browser' component={Browser}/>
+                <Route path='/weng/internet' component={Internet}/>
+                <Route path='/weng/framework' component={Framework}/>
+                <Route path='/weng/project' component={Project}/>
+                <Route path='/weng/modular' component={Modular}/>
+                <Route path='/weng/idea' component={Idea}/>
+                <Route path='/weng/design' component={Design}/>
+                <Route path='/weng/node' component={Node}/>
             </Switch>
         )
     }
