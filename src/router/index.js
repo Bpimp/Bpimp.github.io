@@ -11,7 +11,7 @@ import Idea from "../component/Idea/index";
 import Design from "../component/Design/index";
 import Node from "../component/Node/index";
 import Index from "../component/index";
-import {Route,Switch,Redirect} from 'react-router-dom';
+import {Route,Switch} from 'react-router-dom';
 
 
 class RouterIndex extends React.Component{
