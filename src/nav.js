@@ -6,7 +6,7 @@ class Nav extends React.Component{
         return (
             <nav>
                 <ul className='navList'>
-                    <li><Link to='/weng/'>首页</Link></li>
+                    <li><Link to='/weng'>首页</Link></li>
                     <li><Link to='/weng/html'>HTML</Link></li>
                     <li><Link to='/weng/css'>CSS</Link></li>
                     <li><Link to='/weng/js'>JavaScript</Link></li>
