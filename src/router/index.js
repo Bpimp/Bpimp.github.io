@@ -11,15 +11,13 @@ import Idea from "../component/Idea/index";
 import Design from "../component/Design/index";
 import Node from "../component/Node/index";
 import Index from "../component/index/index";
-import {Route,Switch,Redirect} from 'react-router-dom';
+import {Route,Switch} from 'react-router-dom';
 
 
 class RouterIndex extends React.Component{
     render(){
         return(<Switch>
-                <Route path='/weng/' exact render={()=>{
-                    <Redirect to='/weng'/>
-                }}/>
+                <Route path='/weng/' exact component={Index}/>
                 <Route path='/weng/html' component={HTML}/>
                 <Route path='/weng/css' component={CSS}/>
                 <Route path='/weng/js' component={JavaScript}/>
