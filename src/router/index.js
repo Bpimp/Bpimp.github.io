@@ -17,7 +17,7 @@ import {Route,Switch,Redirect} from 'react-router-dom';
 class RouterIndex extends React.Component{
     render(){
         return(<Switch>
-                <Route path='/' exact render={()=>{
+                <Route path='/weng' exact render={()=>{
                     <Redirect to='/weng'/>
                 }}/>
                 <Route path='/weng/html' component={HTML}/>
