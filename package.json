@@ -1,7 +1,7 @@
 {
   "name": "iterview",
   "version": "0.1.0",
-  "homepage": "https://bpimp.github.io/weng",
+  "homepage": "https://bpimp.github.io/note",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
