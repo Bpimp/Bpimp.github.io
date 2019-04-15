@@ -2,29 +2,25 @@
   margin:0;
   padding:0;
 }
+body{
+    height:100%;
+}
 .clearfix:after{
   content:'';
   display: block;
   clear:both;
 }
-.navList{
-  background: cyan;
-  display:block;
-  text-align:center;
+ .submenu-title-wrapper a{
+  color:#000;
 }
-.navList li{
-  list-style: none;
-  display: inline-block;
-  margin:5px;
+.submenu-title-wrapper :hover{
+  color:#1890ff;
 }
-.navList li a{
-  border-radius:5px;
-  text-decoration: none;
-  text-align:center;
-  padding:5px;
+aside .ant-menu{
+    float:left;
+
 }
-.navList li a:hover{
-  background:fuchsia;
-  color:#fff;
+.main{
+    background: deepskyblue;
 }
 
