@@ -10,17 +10,25 @@ body{
   display: block;
   clear:both;
 }
+header .ant-menu{
+    background:#ffcc99;
+    text-align:center;
+}
  .submenu-title-wrapper a{
   color:#000;
 }
 .submenu-title-wrapper :hover{
   color:#1890ff;
 }
-aside .ant-menu{
+aside{
+    width:256px;
     float:left;
-
 }
 .main{
-    background: deepskyblue;
+    background:aqua;
+    margin-left:256px;
+}
+footer{
+    height:256px;
 }
 

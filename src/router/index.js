@@ -4,7 +4,6 @@ import CSS from "../component/CSS/index";
 import JavaScript from "../component/JavaScript/index";
 import Internet from "../component/Internet/index";
 import Browser from "../component/Browser/index";
-import Framework from "../component/Framework/index";
 import Project from "../component/Project/index";
 import Modular from "../component/Modular/index";
 import Idea from "../component/Idea/index";
@@ -24,7 +23,6 @@ class RouterIndex extends React.Component{
                 <Route path='/js' component={JavaScript}/>
                 <Route path='/browser' component={Browser}/>
                 <Route path='/internet' component={Internet}/>
-                <Route path='/framework' component={Framework}/>
                 <Route path='/project' component={Project}/>
                 <Route path='/modular' component={Modular}/>
                 <Route path='/idea' component={Idea}/>
