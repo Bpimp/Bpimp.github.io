@@ -1,15 +1,19 @@
 import React from 'react';
-import Aside from '../../common/aside';
+import AsideMenu from '../../common/asideMenu';
 
 
 class Modular extends React.Component{
     render(){
         return (
             <div>
-                <Aside/>
-                <main className='main'>
+                <aside>
+                    <AsideMenu
+                        title={this.props.location.state}
+                    />
+                </aside>
+                <div className='main'>
                     <h1>模块化和组件化开发</h1>
-                </main>
+                </div>
             </div>
         )
     }

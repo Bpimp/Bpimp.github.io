@@ -1,14 +1,18 @@
 import React from 'react';
-import Aside from "../../common/aside";
+import AsideMenu from '../../common/asideMenu';
 
 class Browser extends React.Component{
     render(){
         return (
             <div>
-                <Aside/>
-                <main className='main'>
+                <aside>
+                    <AsideMenu
+                        title={this.props.location.state}
+                    />
+                </aside>
+                <div className='main'>
                     <h1>浏览器</h1>
-                </main>
+                </div>
             </div>
         )
     }

@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import Nav from "./nav";
+import Nav from "./common/nav";
+import Footer from './common/footer';
 import RouterIndex from "./router";
 import axios from 'axios';
+
 
 
 class App extends Component {
@@ -34,11 +36,10 @@ class App extends Component {
               />
           </header>
           <section className='clearfix'>
-                  <RouterIndex/>
+              <RouterIndex/>
           </section>
-          <footer>
+            <Footer/>
 
-          </footer>
       </div>
     );
   }

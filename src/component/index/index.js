@@ -1,14 +1,18 @@
 import React from 'react';
-import Aside from '../../common/aside';
+import AsideMenu from '../../common/asideMenu';
 
 class Index extends React.Component{
     render(){
         return (
             <div>
-                <Aside/>
-                <main className='main'>
+                <aside>
+                    <AsideMenu
+                        title={this.props.location.state}
+                    />
+                </aside>
+                <div className='main'>
                     <h1>前端简介</h1>
-                </main>
+                </div>
             </div>
         )
     }

@@ -7,7 +7,12 @@ class Nav extends React.Component{
     render(){
         let menu=this.props.nav.map((item,i)=>{
             return (
-                <SubMenu key={i} title={<span className="submenu-title-wrapper"><Link to={item.path}>{item.name}</Link></span>}>
+                <SubMenu key={i} title={<span className="submenu-title-wrapper">
+                    <Link
+                        to={{
+                            pathname:item.path,
+                            state:item.title
+                        }}>{item.name}</Link></span>}>
                 </SubMenu>
             )
         });
