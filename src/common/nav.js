@@ -5,7 +5,7 @@ import {Menu} from 'antd';
 let SubMenu=Menu.SubMenu;
 class Nav extends React.Component{
     render(){
-        let menu=this.props.nav.map((item,i)=>{
+         let menu=this.props.nav.map((item,i)=>{
             return (
                 <SubMenu key={i} title={<span className="submenu-title-wrapper">
                     <Link
@@ -15,12 +15,12 @@ class Nav extends React.Component{
                         }}>{item.name}</Link></span>}>
                 </SubMenu>
             )
-        });
+         });
         return (
             <Menu
                 mode="horizontal"
             >
-                {menu}
+               {menu}
             </Menu>
         )
     }

@@ -19,7 +19,8 @@
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "server":"webpack-dev-server --open --inline --content-base . --history-api-fallback"
   },
   "eslintConfig": {
     "extends": "react-app"
