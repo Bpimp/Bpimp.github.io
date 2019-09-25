@@ -1,2 +1,0 @@
-# bpimp.github.io
-blog
