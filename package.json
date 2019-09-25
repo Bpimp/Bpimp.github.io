@@ -1,7 +1,7 @@
 {
-  "name": "iterview",
+  "name": "blog",
   "version": "0.1.0",
-  "homepage": "https://bpimp.github.io/note",
+  "homepage": "https://bpimp.github.io",
   "private": true,
   "dependencies": {
     "antd": "^3.16.2",
@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "server":"webpack-dev-server --open --inline --content-base . --history-api-fallback"
+    "server": "webpack-dev-server --open --inline --content-base . --history-api-fallback"
   },
   "eslintConfig": {
     "extends": "react-app"
