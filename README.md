@@ -1,3 +1,1 @@
-my note
-
-weng
+博客雏形
