@@ -14,10 +14,7 @@ class App extends Component {
         }
     }
     componentWillMount(){
-        axios({
-            method:'post',
-            url:' https://www.easy-mock.com/mock/5cb567ca93eb412c8916b9ea/interview/note'
-        })
+        axios.get(' https://www.easy-mock.com/mock/5cb567ca93eb412c8916b9ea/interview/note')
             .then((response)=>{
                 this.setState({
                     data:response.data.data
