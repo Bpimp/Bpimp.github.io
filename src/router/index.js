@@ -10,14 +10,17 @@ import Modular from "../component/Modular/index";
 import Idea from "../component/Idea/index";
 import Design from "../component/Design/index";
 import Node from "../component/Node/index";
-import {Route,Switch} from 'react-router-dom';
+import {Route,Switch,Redirect} from 'react-router-dom';
 
 
 class RouterIndex extends React.Component{
     render(){
         return(
             <Switch>
-                <Route path='/note' exact component={Index}/>
+                <Route path='/blog' exact render={()=>(
+                    <Redirect to='/'/>
+                )}/>
+                <Route path='/' component={Index}/>
                 <Route path='/html' component={HTML}/>
                 <Route path='/css' component={CSS}/>
                 <Route path='/js' component={JavaScript}/>
