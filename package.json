@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "0.1.0",
-  "homepage": "https://bpimp.github.io/blog",
+  "homepage": "https://wjcsblog.com",
   "private": true,
   "dependencies": {
     "antd": "^3.16.2",
