@@ -17,10 +17,10 @@ class RouterIndex extends React.Component{
     render(){
         return(
             <Switch>
-                <Route path='/blog' exact render={()=>(
-                    <Redirect to='/'/>
+                <Route path='/' exact render={()=>(
+                    <Redirect to='/blog'/>
                 )}/>
-                <Route path='/' component={Index}/>
+                <Route path='/blog' component={Index}/>
                 <Route path='/html' component={HTML}/>
                 <Route path='/css' component={CSS}/>
                 <Route path='/js' component={JavaScript}/>
